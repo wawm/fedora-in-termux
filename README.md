@@ -1,1 +1,0 @@
-# fedora-in-termux
