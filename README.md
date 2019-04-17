@@ -1,5 +1,5 @@
 # fedora-in-termux
-This is a script by which you can install Fedora in your termux application without rooted phone
+This is a script by which you can install Fedora in your termux application without rooted device
 
 # Includes Fedora 28 [arm, aarch64(arm64), x86_64, amd64]
 # and
