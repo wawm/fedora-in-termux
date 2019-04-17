@@ -14,8 +14,8 @@ Steps
 6. Download script: git clone https://github.com/MFDGaming/fedora-in-termux.git
 7. Go to script folder: cd fedora-in-termux
 8. Give execution permission: chmod +x ubuntu.sh
-9. Run script: ./fedora.sh {architecture}
+9. Run script: ./fedora.sh {version}
 
-For example: ./fedora.sh arm
+For example: ./fedora.sh 28
 
 11. Now just start fedora: ./start.sh
