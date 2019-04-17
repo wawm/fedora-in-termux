@@ -13,7 +13,7 @@ Steps
 5. Go to HOME folder: cd ~
 6. Download script: git clone https://github.com/MFDGaming/fedora-in-termux.git
 7. Go to script folder: cd fedora-in-termux
-8. Give execution permission: chmod +x ubuntu.sh
+8. Give execution permission: chmod +x *
 9. Run script: ./fedora.sh {version}
 
 For example: ./fedora.sh 28
