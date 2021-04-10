@@ -9,6 +9,9 @@ case "$1" in
 	29)
          ./fedora29.sh
 	    ;;
+	33)
+	 ./fedora33.sh
+	    ;;
 	uninstall)
           chmod +x ~/fedora-in-termux && chmod +x ~/fedora-in-termux/* && rm ~/fedora-in-termux -rf
             ;;
@@ -18,7 +21,8 @@ case "$1" in
 |                                |
 |  Select version or uninstall:  |
 |  28                            |
-|  29                            |
+|  29
+|  33
 |  uninstall                     |
 |________________________________|
 "
