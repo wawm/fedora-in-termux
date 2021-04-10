@@ -49,6 +49,7 @@ if [ "$first" != 1 ];then
     echo "decompressing fedora image"
 proot --link2symlink tar -C $folder/ -xf $cur/fedora.tar.xz ||:
     echo "fixing nameserver, otherwise it can't connect to the internet"
+    rm -f $folder/etc/resolv.conf
     cp resolv.conf $folder/etc/
  
 
